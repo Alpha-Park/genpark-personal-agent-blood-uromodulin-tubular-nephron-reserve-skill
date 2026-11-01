@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-blood-uromodulin-tubular-nephron-reserve-skill",
+  "version": "1.0.0",
+  "description": "Serum and urinary Uromodulin (UMOD) functional renal tubular mass reserve & CKD progression decelerator.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "assess_renal_uromodulin_reserve",
+      "description": "Serum and urinary Uromodulin (UMOD) functional renal tubular mass reserve & CKD progression decelerator.",
+      "sample_input": {
+        "serum_uromodulin_ng_ml": 92.0,
+        "egfr_ml_min_173m2": 78.0,
+        "uacr_mg_g": 22.0
+      }
+    }
+  ]
+}
